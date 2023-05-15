@@ -1,0 +1,96 @@
+<!DOCTYPE html><!--INDICA QUE ES UN ARCHIVO HTML-->
+<html long="es"> <!--MUESTRA EL IDIOMA DEL PROGRAMA-->
+   <!--Indentación-->
+    <head> <!--Lo que el usuario no visualiza pero está-->
+        <meta charset="UTF-8"> <!-- charset = conjunto de caracteres / Permite que los caracteres del idioma no se vean como muchos caracteres. Ejem: ñ o acentos-->
+        <title> Dog's </title> <!--Nombre de la página-->
+        <link href="style.css" rel="stylesheet"> <!--Conexión con css-->
+
+        <!--Tipo de letra desde google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@1,500&display=swap" rel="stylesheet">
+        <!--/Tipo de letra desde google fonts-->
+    </head>
+
+    <header>
+
+    </header>
+
+    <body> <!--Lo que el usuarui visualiza-->
+       <center> <h2> Página para saber todo sobre el cuidado de tu perrito </h2> 
+        <h3> Razas de perritos</h3>
+    
+        <!-- Imagen de internet -->
+        <img class="img1" src="https://www.consumer.es/wp-content/uploads/2019/07/img_perros-mundo-4.jpg"> <!--src = source / fuente--> 
+        <img class="img1" src="  https://www.consumer.es/wp-content/uploads/2019/07/img_perros-mundo-5.jpg">
+      
+        <br>
+        <br>
+        <!--Imagen desde PC-->
+        <img class="img2" src="imagenes/tips.png"> <!--poner la ruta es = CARPETA/imagen-->
+    </center>  
+        <!--Crear enlaces externos-->
+
+      
+        <h3>Lista de los cuidados para tu mascota</h3>
+        <p> Cuidados <strong>básicos</strong> </p> <!--Strong = Negritas-->
+        <!--LISTAS ORDENADAS-->
+        <ol> <!--order list-->
+          <strong>  <li>Alimentación adecuada</li></strong> 
+          <br>
+          <P> Proporciona a tu perrito una dieta equilibrada y de alta calidad que se adapte a sus necesidades específicas. Consulta con tu veterinario para determinar la cantidad y el tipo de alimento más adecuado para tu mascota.</P>
+          <strong>  <li>Ejercicio diario </li></strong>
+          <p>Bríndale suficiente ejercicio diario según sus necesidades y capacidad física. Los paseos, juegos y actividades al aire libre son esenciales para mantenerlo activo y saludable.</p>
+          <strong>  <li>Higiene básica</li></strong> <!--li = list item-->
+          <p> Cepilla regularmente el pelaje de tu perrito para evitar enredos y mantenerlo limpio. Baña a tu perro cuando sea necesario, utilizando productos diseñados especialmente para mascotas. Además, mantén sus uñas recortadas y sus oídos limpios.</p>
+            
+        </ol>
+       <!--LISTAS DESORDENADAS--> 
+       <p> Materiales para brindarle <i>a tu perro</i> mayor comodidad</p> <!--i = letra cursiva-->
+         <ul> <!--Unorder list-->
+            <li>Juguetes masticables o interactivos</li>
+            <li>Mantas o cobijas</li>
+            <li>Su propio recipiente para agua y comida</li>
+
+        </ul>
+
+        <!--Formularios-->
+        <form>
+            <!--Formulario con botones de radio-->
+            <p>¿Te gustaría conocer más?</p>
+            <label> 
+                <input id="sí" type="radio" value="sí" name="sí-no" checked> Sí
+            </label>
+            <!--type = tipo / cheked = para poner esa respuesta por defaut-->
+            <br> <!--brake = salto de línea-->
+            <label> 
+                <input id="nop" type="radio" value="nop" name="sí-no"> nop
+            </label>
+            <!--Formulario con casillas de verificación = checks-->
+            <p>¿Sobre qué más te gustaría que hablemos?</p>
+            <label>
+            <input id="Tips de alimentación" type="checkbox" value="Tips de alimentación" name="contenido" checked> Tips de alimentación
+            </label>
+            <br>
+            <label>
+                <input id="Trucos para adiestramiento" type="checkbox" value="Trucos para adiestramiento" name="contenido"> Trucos para adiestramiento
+            </label>
+            <br>
+            <label>
+                <input id="Tutoriales para la higiene de tu perrito" type="checkbox" value="Tutoriales para la higiene de tu perrito" name="contenido "> Tutoriales para la higiene de tu perrito
+            </label>
+
+            <p> Si quieres ver más información sobre el cuidado de tu mascota: consulta aquí: <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwifgdiy2vf-AhUNIUQIHXMdAC4QFnoECA4QAQ&url=https%3A%2F%2Fpostgradoveterinaria.com%2Fcuidados-perro-recomendaciones-basicas%2F&usg=AOvVaw18XKdix7PDoa7vfimrq1lj" target="_blank">da click aquí</a></p> <!--href = hiper link de referencia/ target es para cuando queremos que se abra en otra pestaña--> 
+       
+
+        </form>
+        <br><br>
+    </body>
+<center>
+    <footer> 
+        <p><small>Esta página fue creada por Lorena Ahuactzin Meléndez durante el curso TecnoloChicas PRO</small></p>
+
+    </footer>
+</center>
+</html>

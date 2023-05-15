@@ -1,0 +1,43 @@
+/*COMENTARIOS*/
+body{
+    background-color: rgb(239, 220, 243);
+    color: #1f101d; 
+    font-family: 'Ysabeau', sans-serif;
+}
+
+h3{
+    color:black;
+    font-size: 25px;
+}
+
+h2, p{
+    color:#6d3959
+}
+
+img {
+    /*width: 225px;*/ /*Ancho de imagen*/
+    /*height: 300px;*/ /*Alto de la imagen*/
+    border-style: solid;
+    border-color: rgb(185, 201, 216);
+    margin: 20px; /*Margen entre las imagenes*/
+    margin-left: 50px;
+    padding: 20px; /*Espacio entre borde e imagen*/
+
+}
+
+/*se especifica con class desde html para editar solo las especificaciones por img*/
+.img1 {
+    width: 450px;
+    height: 500px;
+}
+
+.img2 {
+    width: 400px;
+}
+
+a, small{
+    color:rgb(59, 140, 167)
+}
+
+
+
